@@ -317,3 +317,8 @@ input#search-bar {
   margin-top: 10px;
   background-color: #ffd001;
 }
+
+a {
+  color: #464749;
+  text-decoration: none;
+}
