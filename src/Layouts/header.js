@@ -7,13 +7,14 @@ export default function Header() {
       <TopBar></TopBar>
       <header className="header">
         <div className="container">
-          {" "}
-          <img
-            src="/Peachpuff-Brush-Stroke-Photography-Logo-1.png"
-            alt="logo"
-            width={200}
-            className="logo"
-          />
+          <a href="/">
+            <img
+              src="/Peachpuff-Brush-Stroke-Photography-Logo-1.png"
+              alt="logo"
+              width={200}
+              className="logo"
+            />
+          </a>
           <ul className="menu">
             <MenuItem text="کارگاه ها و ر ویدادها " isBtn={false} />
             <MenuItem text="فروشگاه " isBtn={false} />

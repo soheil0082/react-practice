@@ -6,7 +6,7 @@ import Card from "../Components/card";
 export default function Body() {
   return (
     <div className="body">
-      <Poster />
+      <Poster myClass="home" isHome={true} />
       <Cards
         title="کارگاه ها و رویدادها"
         des="اینجا شروع مسیر تربیت کودکان موفق شماست!"
